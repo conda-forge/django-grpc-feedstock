@@ -1,5 +1,5 @@
 {% set name = "django-grpc" %}
-{% set version = "1.2.16" %}
+{% set version = "1.2.20" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/django_grpc-{{ version }}.tar.gz
-  sha256: 08c7e17b1f593b5179b1aa8957feaf0d92659209dc11e15ef2747800cd7ccb2e
+  sha256: 46ec3e8001bd2e13ef286d82142b606b4ff5af2f27ff7afdfb5a21f86774345a
 
 build:
   noarch: python
